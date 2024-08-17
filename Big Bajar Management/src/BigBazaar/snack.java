@@ -1,9 +1,9 @@
 package BigBazaar;
 
-public class snax {
+public class snack {
 		int snid,snprice;
 		String snname;
-		snax(int snid,String snname,int snprice){
+		snack(int snid,String snname,int snprice){
 			this.snid=snid;
 			this.snname=snname;
 			this.snprice=snprice;
