@@ -1,49 +1,15 @@
 
-//Create Bigbazaar management system with below operations
-//
-//Choose one option
-//1. Admin
-//2. Customer
-//
-//If it is ch 1:
-//Enter user name and password and validate it:
-//if it is correct then proceed with below operations:{
-// Choose one operation:
-//   1.Add fruits/Vegitable
-//   2.Add snacks}
-//else
-//{
-//print "Incorrect username and password!! plese retry!
-//}
-//
-//If it is choise 2:
-//print all the fruits/vegitables and then ask them to enter the id of required item 
-//
-//take input of id and calculate the total price of all the selected items.
-//
-//
-//Fruits/Vegitable class should have below properties:
-//1.Id
-//2.Name
-//3.Price
-//
-//Snacks should have below properties
-//1.ID
-//2.Name
-//3.Price-
-//
-
 package BigBazaar;
 import java.util.*;
 import java.util.Scanner;
 import BigBazaar.admin;
 import BigBazaar.customer;
 import BigBazaar.groceries;
-import BigBazaar.snax;
+import BigBazaar.snack;
 
 import java.util.ArrayList;
 
-public class Ssolution {
+public class Solution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
